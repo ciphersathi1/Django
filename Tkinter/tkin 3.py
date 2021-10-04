@@ -1,0 +1,11 @@
+from tkinter import *  
+top = Tk()  
+top.geometry("400x250")  
+name = Label(top, text = "Name").place(x = 30,y = 60)  
+email = Label(top, text = "Email").place(x = 30, y = 90)  
+password = Label(top, text = "Password").place(x = 30, y = 120)  
+e1 = Entry(top).place(x = 100, y = 60)  
+e2 = Entry(top).place(x = 100, y = 90)  
+e3 = Entry(top).place(x = 100, y = 120)
+submit=Button(top,text="submit").place(x=30,y=170)
+top.mainloop()  
